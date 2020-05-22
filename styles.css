@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&display=swap');
+
+
+body{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.9px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    padding: 18px 0;
+    border-bottom: 2px solid black;
+}
+
+.title{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title a {
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 20px 0;
+}
+.categorias{
+    text-align: center;
+}
+
+select{
+    padding: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.9px;
+}
+.categorias-title{
+    font-size: 18px;
+}
+
+.categorias-title, .categorias-content{
+    padding-bottom: 8px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px 0;
+}
+
